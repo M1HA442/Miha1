@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centrul de Excelență în Energetică și Electronică</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* MENIU */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:#020617;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* HERO SECTION */
+.hero{
+    height:50vh;
+    background:url("poza1.jpg") center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-blend-mode:overlay;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+}
+
+button{
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:#38bdf8;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0284c7;
+}
+
+/* SECTIUNI */
+.section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    width:300px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+    background:#020617;
+    padding:30px;
+    text-align:center;
+}
+
+</style>
+</head>
+<body>
+
+<!-- MENIU -->
+<nav>
+    <h2>CEEE</h2>
+    <div>
+        <a href="#">Acasă</a>
+        <a href="#">Despre</a>
+        <a href="#">Specialități</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- SECTIUNE PRINCIPALA -->
+<div class="hero">
+    <h1>Centrul de Excelență în Energetică și Electronică</h1>
+    <p>Instituție modernă din Republica Moldova care formează specialiști în domeniul energeticii, electronicii și tehnologiilor informaționale.</p>
+    <button>Înscrie-te la studii</button>
+</div>
+
+<!-- DESPRE -->
+<div class="section">
+    <h2>Despre instituție</h2>
+    <p>Oferim educație profesională de calitate, laboratoare moderne și practică reală în companii.</p>
+
+    <div class="cards">
+        <div class="card">
+            <img src="poza2.jpg">
+            <h3>Laboratoare moderne</h3>
+            <p>Echipamente performante pentru instruire practică.</p>
+        </div>
+
+        <div class="card">
+            <img src="poza3.jpg">
+            <h3>Studenți motivați</h3>
+            <p>Un mediu activ și orientat spre viitor.</p>
+        </div>
+
+        <div class="card">
+            <img src="poza4.jpg">
+            <h3>Profesori experimentați</h3>
+            <p>Cadre didactice cu experiență vastă în domeniu.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SPECIALITATI -->
+<div class="section" style="background:#0b1220;">
+    <h2>Specialități oferite</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Electrotehnică</h3>
+            <p>Formarea specialiștilor în sisteme electrice și energetice.</p>
+        </div>
+
+        <div class="card">
+            <h3>Electronică</h3>
+            <p>Tehnologii moderne de circuite și automatizări.</p>
+        </div>
+
+        <div class="card">
+            <h3>Tehnologii Informaționale</h3>
+            <p>Programare, rețele și sisteme informatice.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<footer>
+    <h3>Contact</h3>
+    <p>Email: contact@ceee.md</p>
+    <p>Telefon: +373 000 000 000</p>
+    <p>Republica Moldova</p>
+    <p>© 2026 Centrul de Excelență în Energetică și Electronică</p>
+</footer>
+
+</body>
+</html>
